@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style1.css">
+
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Admin Dashboard Panel</title>
+</head>
+
+<body>
+    <div class="whole">
+        <nav style="background-color: black;">
+            <div class="logo-name">
+                <div class="logo-image">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <span class="logo_name" style="color: white;">Admin Panel </span>
+            </div>
+            <div class="menu-items">
+                <ul class="nav-links">
+                    <li><a href="#">
+                            <i class="uil uil-estate"></i>
+                            <span class="link-name">Dashboard</span>
+                        </a></li>
+                    <li><a href="#">
+                            <i class="uil uil-files-landscapes"></i>
+                            <span class="link-name">Employee</span>
+                        </a></li>
+                    <li><a href="#">
+                            <i class="uil uil-chart"></i>
+                            <span class="link-name">HR </span>
+                        </a></li>
+                    <li><a href="#">
+                            <i class="uil uil-suitcase"></i>
+                            <span class="link-name">Manager</span>
+                        </a></li>
+
+                </ul>
+
+                <ul class="logout-mode">
+                    <li><a href="#">
+                            <i class="uil uil-signout"></i>
+                            <span class="link-name">Logout</span>
+                        </a></li>
+                    <li class="mode">
+                        <a href="#">
+                            <i class="uil uil-moon"></i>
+                            <span class="link-name">Dark Mode</span>
+                        </a>
+                        <div class="mode-toggle">
+                            <span class="switch"></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="dashboard" style="background-image: url('/admin_panel.webp'); ">
+            <div class="top" style="background-color: black;">
+                <i class="uil uil-bars sidebar-toggle" style="color: white;"></i>
+                <div class="search-box">
+                    <i class="uil uil-search"></i>
+                    <input type="text" placeholder="Search here...">
+                </div>
+
+                <!--<img src="images/profile.jpg" alt="">-->
+            </div>
+            <div class="dash-content">
+                <div class="overview">
+                    <div class="title">
+                        <i class="uil uil-tachometer-fast-alt"></i>
+                        <span class="text" style="color: white; text-decoration: underline solid blue;">Dashboard</span>
+                    </div>
+                    <div class="boxes">
+                        <div class="box box1">
+                            <i class="uil uil-files-landscapes"></i>
+                            <span class="text">Total Employee</span>
+                            <span class="number">50,120</span>
+                        </div>
+                        <div class="box box2">
+                            <i class="uil uil-chart"></i>
+                            <span class="text">HR</span>
+                            <span class="number">20,120</span>
+                        </div>
+                        <div class="box box3">
+                            <i class="uil uil-suitcase"></i>
+                            <span class="text">Manager</span>
+                            <span class="number">10,120</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="activity">
+                    <div class="title">
+                        <i class="uil uil-clock-three"></i>
+                        <span class="text" style="color: white; text-decoration: underline solid blue;">Recent
+                            Activity</span>
+                    </div>
+                    <div class="activity-data">
+                        <div class="data names">
+                            <span class="data-title"
+                                style="text-decoration: underline solid rgb(5, 5, 247);">Name</span>
+                            <span class="data-list">Prem Shahi</span>
+                            <span class="data-list">Deepa Chand</span>
+                            <span class="data-list">Manisha Chand</span>
+                            <span class="data-list">Pratima Shahi</span>
+                            <span class="data-list">Man Shahi</span>
+                            <span class="data-list">Ganesh Chand</span>
+                            <span class="data-list">Bikash Chand</span>
+                        </div>
+                        <div class="data email">
+                            <span class="data-title"
+                                style="text-decoration: underline solid rgb(5, 5, 247);">Email</span>
+                            <span class="data-list">sk@gamil</span>
+                            <span class="data-list">sk@gamil</span>
+                            <span class="data-list">sk@gamil</span>
+                            <span class="data-list">sk@gamil</span>
+                            <span class="data-list">sk@gamil</span>
+                            <span class="data-list">sk@gamil</span>
+                            <span class="data-list">sk@gamil</span>
+                        </div>
+                        <div class="data joined">
+                            <span class="data-title"
+                                style="text-decoration: underline solid rgb(5, 5, 247);">Joined</span>
+                            <span class="data-list">2022-02-12</span>
+                            <span class="data-list">2022-02-12</span>
+                            <span class="data-list">2022-02-13</span>
+                            <span class="data-list">2022-02-13</span>
+                            <span class="data-list">2022-02-14</span>
+                            <span class="data-list">2022-02-14</span>
+                            <span class="data-list">2022-02-15</span>
+                        </div>
+                        <div class="data type">
+                            <span class="data-title"
+                                style="text-decoration: underline solid rgb(5, 5, 247);">Type</span>
+                            <span class="data-list">New</span>
+                            <span class="data-list">Member</span>
+                            <span class="data-list">Member</span>
+                            <span class="data-list">New</span>
+                            <span class="data-list">Member</span>
+                            <span class="data-list">New</span>
+                            <span class="data-list">Member</span>
+                        </div>
+                        <div class="data status" style="margin-top: -10px;">
+                            <span class="data-title"
+                                style="text-decoration: underline solid rgb(5, 5, 247);">Grade</span>
+                            <span class="data-list">A</span>
+                            <span class="data-list">A</span>
+                            <span class="data-list">A</span>
+                            <span class="data-list">A</span>
+                            <span class="data-list">A</span>
+                            <span class="data-list">A</span>
+                            <span class="data-list">A</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+
+</html>

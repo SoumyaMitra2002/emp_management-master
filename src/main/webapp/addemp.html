@@ -1,0 +1,101 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Form</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" href="addemp.css">
+</head>
+<body>
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">InfinitumSolutions</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="logic1.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="addemp.html">AddEmployee</a>
+              </li>
+             
+             
+            </ul>
+          </div>
+        </div>
+      </nav> -->
+
+<form  action="addemployee" method="post"  >
+<div class="wrapper">
+    <div class="title">
+      Registration Form
+    </div>
+    <div class="form">
+       <div class="inputfield">
+          <label>Enter Name</label>
+          <input type="text" class="input" name="name" required>
+       </div>  
+       <div class="inputfield">
+          <label>Password</label>
+          <input type="password" class="input" name="pwd" required>
+       </div>  
+      
+        <div class="inputfield">
+          <label>Gender</label>
+          <div class="custom_select">
+            <select name="gender">
+              <option value=""  >Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+       </div> 
+        <div class="inputfield">
+          <label>Email Address</label>
+          <input type="text" class="input" name="email" required>
+       </div> 
+       <div class="inputfield">
+          <label>Department</label>
+          <div class="custom_select">
+            <select name="dept">
+              <option value=""  >Select</option>
+              <option value="marketing">Marketing</option>
+              <option value="technical">Technical</option>
+              <option value="technical">Finance</option>
+              <option value="other">Others</option>
+            </select>
+          </div>
+       </div>
+      <div class="inputfield">
+          <label>Phone Number</label>
+          <input type="number" class="input" name="phonenumber" required>
+       </div> 
+      <div class="inputfield">
+          <label>Location</label>
+           <input type="text" class="input" name="location" required>
+          
+       </div> 
+      <div class="inputfield">
+          <label>Postal Code</label>
+          <input type="number" class="input" name="postalcode">
+       </div> 
+      <div class="inputfield terms">
+          <label class="check">
+            <input type="checkbox">
+            <span class="checkmark"></span>
+          </label>
+          <p>Agreed to terms and conditions</p>
+       </div> 
+      <div class="inputfield">
+        <input type="submit" value="Register" class="btn">
+      </div>
+    </div>
+</div>	
+</form>
+</body>
+</html>
+
